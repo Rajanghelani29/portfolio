@@ -30,7 +30,7 @@
 }
 
 .logo{
-    width:80px;
+    width:30px;
 }
 
 .logo-container{
@@ -40,7 +40,7 @@
 }
 
 .logo-text{
-    margin-left:-0.8rem;
+    margin-left:-0.1rem;
     font-size:28px;
 }
 
@@ -61,9 +61,8 @@
     color:black;
     /* transition: all 5s ease; */
 }
-
 a{
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .nav-items div:hover{
@@ -89,7 +88,7 @@ a{
     font-size: 7em;
     color:rgb(166, 161, 161);
     
-    bottom: -16%;
+    bottom: -25%;
     left: -13%;
     font-weight: bold;
     transition: all 3s;
@@ -129,7 +128,7 @@ a{
     background-color: var(--bgOrange);
     width: fit-content;
     color: white;
-    padding: 0.8rem 2.3rem;
+    padding: 0.6rem 1.4rem;
     box-shadow: 5px 5px 7px 0px #0000003f;
     font-size: 18px;
     cursor: pointer;
@@ -138,6 +137,14 @@ a{
     border: solid 3px transparent;
     position: relative;
     z-index: 1;
+  }
+  .btn-pink a{
+    color:white;
+  }
+ 
+  .btn-pink a:hover{
+    border: none;
+    color: black;
   }
   .btn-pink::before {
     content: "";
@@ -291,14 +298,14 @@ a{
 
   .project-section{
     background-color: rgb(231,231,231);
-    margin-top:4rem;
+    margin-top:6.3rem;
   }
 
   .page-header{
     color:var(--bgOrange);
     font-size:90px;
     text-align:center;
-    padding-top:30px;
+    padding-top:40px;
   }
   .project-container{
     max-width: 1200px;
@@ -631,7 +638,7 @@ a{
 }
 
 .formfield-container{
-  width:100%;
+  width:80%;
 }
 
 .formfield{
@@ -670,7 +677,7 @@ footer{
   position:relative;
   margin-top:-1px;
   background-color: #343d68;
-  padding:5rem;
+  padding:3rem;
 }
 
 .footer-wrapper{
@@ -685,7 +692,7 @@ footer{
 .footer-faded-text{
   position:absolute;
   left:12px;
-  bottom:-4px;
+  bottom:0px;
   color:#535c87;
   user-select:none;
   font-size:5em;
@@ -708,5 +715,5 @@ footer{
 
 .icon-wrapper{
   display:flex;
-  gap:1rem;
+  gap:1.5rem;
 }
