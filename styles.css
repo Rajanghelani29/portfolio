@@ -854,14 +854,14 @@ footer {
   }
 }
 
-@media screen and (max-width:375px) {
+@media screen and (max-width:376px) {
   .hero-section{
       position: relative;
       display: flex;
       justify-content: center;
       align-items: center;
       gap: 3rem;
-      margin: 4rem auto;
+      margin: 1rem auto;
       padding: 0 1rem;
       padding-bottom: 8rem;
   }
@@ -872,13 +872,13 @@ footer {
     gap: 1rem;
   }
   .hero-section-description{
-    font-size: 12px;
+    font-size: 13px;
   }
   .btn-pink {
     background-color: var(--bgOrange);
     width: fit-content;
     color: white;
-    padding: 0.1rem 0.4rem;
+    padding: 0.3rem 0.5rem;
     box-shadow: 5px 5px 7px 0px #0000003f;
     font-size: 14px;
     cursor: pointer;
@@ -887,5 +887,47 @@ footer {
     border: solid 3px transparent;
     position: relative;
     z-index: 1;
+  }
+  .faded-text{
+    font-size: 45px;
+    margin-bottom: -7px;
+    margin-left: 145px;
+  }
+  .skills-container{
+    margin: 0rem;
+    padding: 1rem;
+  }
+  .caps{
+    font-size: 45px;
+  }
+  .skill-heading{
+    font-size: 30px;
+  }
+  .skill-subHeading{
+    width: 58%;
+  }
+  .contactus-heading{
+    font-size: 3rem;
+    padding-top: 0rem;
+  }
+  .contactus-sub-heading{
+    font-size: 2rem;
+  }
+  .form{
+    margin: 0rem 3rem;
+    margin-left: 0px;
+  }
+  .formfield{
+    font-size: 17px;
+  }
+  #submit-btn{
+    border: none;
+    font-size: 1.2rem;
+    margin: 1.5rem 0;
+    padding: 0.5rem;
+  }
+  .footer-faded-text{
+    font-size: 3rem;
+    left: 10px;
   }
 }
