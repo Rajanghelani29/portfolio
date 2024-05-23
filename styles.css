@@ -732,8 +732,8 @@ footer {
 
 @media screen and (max-width:1102px) {
   .user-image img {
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 225px;
   }
 
   .hero-section-right {
