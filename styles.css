@@ -25,8 +25,8 @@
     display: flex;
     justify-content:space-between;
     align-items:center;
-
     padding-top:1rem;
+    flex: 1 0 auto;
 }
 
 .logo{
@@ -180,6 +180,7 @@ a{
     filter:grayscale(1);
     transition:all 1s;
     animation: scaleImage 5s linear infinite;
+    object-fit: cover;
   }
 
   .user-image img{
@@ -716,4 +717,92 @@ footer{
 .icon-wrapper{
   display:flex;
   gap:1.5rem;
+}
+@media (max-width:1102px){
+  .user-image img{
+    width: 200px;
+    height: 200px;
+  }
+  .hero-section-right{
+    margin-right: 160px;
+  }
+}
+@media (max-width:1025px){
+  .wrapper{
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+  .hero-section-right{
+    margin-right: 200px;
+  }
+  .user-image img{
+    width: 200px;
+    height: 200px;
+  }
+  .logo-container{
+    display:flex;
+    justify-content: baseline;
+    align-items: center;
+    margin-left: 15px;
+  }
+  .nav-items{
+    margin-right: 150px;
+  }
+  .faded-text{
+    margin-left: 165px;
+    margin-bottom: -17px;
+  }
+  .skill-fade-text{
+    margin-right: 380px;
+    font-size: 8em;
+    margin-bottom: 8px;
+  }
+  .icon-wrapper{
+    margin-right: 280px;
+  }
+}
+
+@media (max-width:770px){
+  .hero-section-right{
+    margin-right: 470px;
+  }
+  .hero-section-heading{
+    font-size: 26px;
+  }
+  .hero-section{
+    padding: 0 0.5rem;
+  }
+  .nav-items{
+    margin-right: 400px;
+  }
+  .faded-text{
+    font-size: 5em;
+    margin-bottom: -40px;
+  }
+  .container{
+    margin-left: 15px;
+  }
+  .icon-wrapper{
+    margin-right: 530px;
+  }
+}
+
+@media (max-width:375px){
+  .hero-section-heading{
+    font-size: 21px;
+  }
+  .btn-pink{
+    background-color: var(--bgOrange);
+    width: fit-content;
+    color: white;
+    /* padding: 0.1rem 0.4rem; */
+    box-shadow: 5px 5px 7px 0px #0000003f;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.5s;
+    font-weight: 500;
+    border: solid 3px transparent;
+    position: relative;
+    z-index: 1;
+  }
 }
